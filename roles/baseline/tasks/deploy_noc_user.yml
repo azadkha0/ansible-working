@@ -3,7 +3,7 @@
 - file:
     state: directory
     path: /home/noc/.ssh
-    mode: 0600
+    mode: 0700
     owner: noc
     group: noc
 - copy:
