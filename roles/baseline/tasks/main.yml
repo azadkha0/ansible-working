@@ -1,2 +1,5 @@
 ---
 # tasks for baseline role will be added here
+
+- name: configure motd
+	import_tasks: deploy_motd.yml
